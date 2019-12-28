@@ -1,0 +1,37 @@
+.movie {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 10px;
+ img {
+
+ }
+  .data {
+    .title {
+
+    }
+    .year {
+
+    }
+    .genres {
+      height: 1.2em;
+      overflow: hidden;
+      .genre {
+        display: inline-block;
+        margin-right: 5px;
+      }
+    }
+    .summery {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 6;
+      -webkit-box-orient: vertical;
+      word-wrap:break-word;
+      line-height: 1.2em;
+      height: 7.2em;
+    }
+  }
+}
